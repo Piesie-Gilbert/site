@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             // Fetch entries of your 'project' content type
             const response = await fetch(
-                https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE_ID}/environments/master/entries?access_token=${CONTENTFUL_ACCESS_TOKEN}&content_type=project&order=sys.createdAt
+                https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE_ID}/environments/master/entries?access_token=${CONTENTFUL_ACCESS_TOKEN}&content_type=portfolioProject&order=sys.createdAt
             );
             const data = await response.json();
 
