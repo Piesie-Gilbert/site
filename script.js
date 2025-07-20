@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // REPLACE WITH YOUR ACTUAL Contentful Space ID and Access Token
     // IMPORTANT: NEVER expose your Management Token here! Only Delivery API tokens.
-    const CONTENTFUL_SPACE_ID = 'YOUR_CONTENTFUL_SPACE_ID'; // e.g., 'abcdef12345'
-    const CONTENTFUL_ACCESS_TOKEN = 'YOUR_CONTENTFUL_ACCESS_TOKEN'; // e.g., 'ghijk67890'
+    const CONTENTFUL_SPACE_ID = 'sohnzczarvdr'; // e.g., 'abcdef12345'
+    const CONTENTFUL_ACCESS_TOKEN = 'AI0c1MJmACxV38pqYhKHPcqt_eKZGtD8v3wkXso0YX8'; // e.g., 'ghijk67890'
 
     // Function to fetch projects from Contentful
     async function fetchProjects() {
